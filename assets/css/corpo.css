@@ -1,0 +1,151 @@
+
+
+/*  
+* Centralizando itens da Section
+* itens: TextArea , Input , Buttons
+*/
+.container__texto_entrada {
+  text-align: center;
+}
+
+/*
+* Area do texto a ser enciptado
+*/
+.container__entrada-texto {
+  color: var(--cor-fonte-principal);
+  margin-top: 0.5em;
+  margin-left: 1.8em;
+  background: transparent;
+  resize: none;
+  border: none;
+  outline: 0;
+  color: #0A3871;
+  text-transform: lowercase;
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 64px;
+  margin-bottom: 42px;
+}
+
+/*
+* Texto e icon Informativo
+*/
+.container__entrada-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+
+/* Icon informativo */
+.container__conteudo-icon-info {
+  color: var(--cor-fonte-principal);
+
+}
+
+/* texto informativo */
+.container__texto_info {
+  color: var(--cor-fonte-secudaria);
+  font-size: 12px;
+  padding: 4px;
+}
+
+/*
+* Buttons 
+*/
+
+.container__buttons__criptografa,
+.container__buttons__descriptografa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin: auto;
+  height: 60px;
+  border-radius: 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.container__buttons__criptografa {
+  background: var(--cor-bootao-azul-escuro);
+  color: var(--cor-fonte-bootao-branco);
+  margin-bottom: 8px;
+  border: none;
+}
+
+.container__buttons__criptografa:hover {
+  background: #356EA9;
+  color: var(--cor-bootao-azul-escuro);
+}
+
+.container__buttons__descriptografa {
+  background: none;
+  border: 1.5px solid var(--cor-bootao-azul-escuro);
+  color: --cor-fonte-principal;
+}
+
+.container__buttons__descriptografa:hover {
+  background: #356EA9;
+  color: var(--cor-bootao-azul-escuro);
+}
+
+/*
+*  Texto Criptografado Cotainer
+*/ 
+.container__conteudo-texto-criptografado {
+  margin: 2rem;
+  padding: 1rem;  
+  height: auto;
+  width: 280px;
+  background: var(--cor-fonte-bootao-branco);
+  border-radius: 12px;
+  color: var(--cor-fonte-secudaria);
+}
+
+/* Titulo Texto Criptografado*/
+.container__conteudo-criptografado-titulo{
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+/* Paragrafo do Texto Criptografado */
+.container__conteudo-criptografado-texto {
+  text-align: center;
+}
+
+/*
+* Button Copia texto
+*/
+.copia_btn {
+  height: 67px;
+  width: 278px;
+  border-radius: 24px;
+  align-items: center;
+  background: transparent;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  color: var(--cor-fonte-principal);
+  border: 1px solid var(--cor-fonte-principal);
+}
+
+/*
+* Footer
+*/
+.rodape {
+  display: inline;
+  font-size: 14px;
+}
+
+/* Imagem Pesquisa Texto Criptografado
+* tag Img não exibe
+*/
+
+
+.container__conteudo-texto-area {
+  display: none;
+}
+

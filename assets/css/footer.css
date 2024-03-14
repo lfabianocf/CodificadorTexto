@@ -1,0 +1,17 @@
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+  }
+
+  .rodape_icon {
+    color: var(--cor-fonte-principal);
+  }
+  
+  .rodape__container-link {
+    margin-left: 0.5em;
+    color: #0A3871;
+    text-decoration: none;
+  }
+  

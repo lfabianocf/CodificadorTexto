@@ -1,0 +1,22 @@
+@import url(header.css);
+@import url(corpo.css);
+@import url(footer.css);
+@import url(resposivo.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600&display=swap');
+
+:root {
+    --cor-de-fundo: #E9ECF8;
+    --font-padrao: 'Inter';
+    --cor-fonte-principal: #0A3871;
+    --cor-fonte-secudaria: #343A40;
+    --cor-fonte-texto   : #495057;
+    --cor-bootao-azul-escuro: #0A3871;
+    --cor-fonte-bootao-branco: #FFFFFF;
+    --cor-cinza-texto-segundario: #313336;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-padrao);
+}

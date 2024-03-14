@@ -1,0 +1,190 @@
+@media screen and (min-width: 468px) {
+
+  .container__texto_entrada {
+    text-align: left;
+  }
+
+  .container__entrada-texto {
+
+    width: 372px;
+    height: 186px;
+    padding: 32px;
+  }
+
+  /*  
+ *  Texto Criptografado Cotainer
+ */
+  .container__conteudo-area {
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+  .container__conteudo-criptografado-titulo h2 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .container__conteudo-area {
+    
+  }
+}
+
+
+/*@media screen  and (min-width: 768px) {*/
+/*@media screen and (min-width: 768px) and (max-width: 1024px) {*/
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .container_principal {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .container__entrada-texto {
+    width: 620px;
+  }
+
+  .container__entrada-info {
+    display: inline-flex;
+    margin-left: 5em;
+  }
+
+  .container__entrada-buttons {
+    display: flex;
+    flex-direction: row;
+    width: 680px;
+    justify-content: space-between;
+    margin-left: 2.5em;
+  }
+
+  .container__buttons__criptografa, 
+  .container__buttons__descriptografa {
+    width: 300px;
+    margin: 20px;
+  }
+
+  .container__conteudo-area {
+    display: flex;
+  }
+    
+
+  .container__conteudo-texto-criptografado {
+    width: 600px;
+  }
+
+  .container__conteudo-criptografado-titulo {
+    color: var(--cor-fonte-secudaria);
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .container__conteudo-criptografado-texto {
+    font-size: 14px;
+    color: var(--cor-fonte-texto);
+  }
+
+  .copia_btn {
+    width: 300px;
+    height: 67px;
+    border-radius: 24px;
+    background: transparent;
+    margin-left: 12em;
+    
+  }
+
+}
+
+@media screen and (min-width: 1025px) {
+
+  .container_principal {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container__texto_entrada-cripto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container__texto_entrada-cripto {
+    width: 680px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 4em;
+  }
+
+  .container__entrada-info {
+    display: flex;
+    justify-content: start;
+    margin-top: 14em;
+    margin-left: 8em;
+
+  }
+
+  .container__entrada-buttons {
+    display: flex;
+    width: 680px;
+    margin-left: 4em;
+    justify-content: space-around;
+
+  }
+
+  .container__buttons__criptografa,
+  .container__buttons__descriptografa {
+    width: 270px;
+  }
+
+  .container__conteudo-texto-area {
+    display: flex;
+  }
+
+  .container__conteudo-texto-criptografado {
+     display: inline-block;
+     margin-left: 4em;
+  }
+
+  .container__conteudo-textarea-img {
+    margin-top: 5em;
+  }
+  
+  .container__entrada-texto {
+    width: 700px;
+    margin-left: 4em;
+  }
+
+  /* Titulo Texto Criptografado*/
+  .container__conteudo-criptografado-titulo {
+    margin-top: 4em;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  /* Paragrafo do Texto Criptografado */
+  .container__conteudo-criptografado-texto {
+    font-size: 16px;
+    color: var(--cor-cinza-texto-segundario);
+    margin-bottom: 6em;
+  }
+
+  .texto_cripto_area {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .texto_cripto {
+    font-size: 16px;
+    /*width: 336px;*/
+    height: 400px;
+  }
+
+  .copia_btn {
+    width: 288px;
+    height: 67px;
+    border-radius: 24px;
+    background: transparent;
+  }
+}

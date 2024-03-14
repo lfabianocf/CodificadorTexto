@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codifcador de Texto</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="icon" type="image/x-icon" href="assets/img/criptografia.png">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="assets/img/Logo.svg" alt="Logo" class="cabecalho__logo">
+        <h1 class="cabecalho__titulo">Codificador</h1>
+    </header>
+
+    <main class="container_principal">
+      <div class="container_principal">
+            <section class="container__texto_entrada-cripto">
+            
+                <textarea class="container__entrada-texto" id="texto__entrada" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+
+                <div class="container__texto_cripto">
+                    <div class="container__entrada-info">
+                        <i class="fas fa-exclamation-circle fa-1x container__entrada-icon-info"></i>
+                        <p class="container__texto_info">Atenção: Texto em minúsculas e sem acento!</p>
+                    </div>
+
+                    <div class="container__entrada-buttons">
+                        <button class="container__buttons__criptografa" onclick="criptografa()">Criptografar</button>
+                        <button class="container__buttons__descriptografa" onclick="descriptografa()">Descriptografar</button>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="container__conteudo-area">
+
+                <div class="container__conteudo-texto-criptografado" id="texto__cripto">
+                    <div class="container__conteudo-texto-area">
+                        <img src="assets/img/image-msn.svg" width="300" height="310" alt="Imagem Home Pesquisando" class="container__conteudo-textarea-img">
+                    </div>
+                    <h2 class="container__conteudo-criptografado-titulo" >
+                            Nenhuma mensagem encontrada
+                    </h2>
+                        <p class="container__conteudo-criptografado-texto">
+                        Digite um texto que você deseja criptografar ou descriptografar.
+                        </p>
+                    
+                </div>
+            </section>
+ 
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="rotape__container">
+            <i class="fab fa-github-square fa-lg rodape_icon"></i>
+            <a href="#" class="rodape__container-link" target="_blank">Desenvolvido por Fabiano Fernandes</a>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

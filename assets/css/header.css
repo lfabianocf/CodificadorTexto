@@ -1,0 +1,19 @@
+
+
+.cabecalho {
+    text-align: left;
+    display: flex;
+    align-items: last baseline;
+    margin: 2em;
+    
+}
+
+.cabecalho__logo {
+    margin-right: 16px;
+}
+
+.cabecalho__titulo {
+    color: var(--cor-fonte-principal);
+    font-size: 2em;
+    font-weight: 400;
+}
